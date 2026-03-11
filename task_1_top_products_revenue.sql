@@ -24,4 +24,4 @@ SELECT case
        sum(rounded_share) as share_in_revenue
 FROM   with_shares
 GROUP BY 1
-ORDER BY 2 desc;
+ORDER BY 2 desc
