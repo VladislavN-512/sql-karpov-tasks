@@ -29,7 +29,7 @@ with t1 as (SELECT p.name,
   t3 as (SELECT sum(revenue) as total
          FROM   t2), 
   with_shares as (SELECT product_name, revenue, 
-                    round(revenue::numeric / t3.total * 100, 2) as rounded_share
+                    round(revenue::decimal / t3.total * 100, 2) as rounded_share
                   FROM   t2, t3)
 SELECT case 
           when rounded_share < 0.5 then 'ДРУГОЕ'
