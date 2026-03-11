@@ -18,3 +18,6 @@
 
 **Задача 6** — Расчет ARPU/ARPPU/AOV   
 [task_6_arpu_arppu_aov.sql]
+
+**Задача 7** — Retention D1/D7 рекламных кампаний   
+[task_7_campaign_retention.sql]
