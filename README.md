@@ -15,3 +15,6 @@
 
 **Задача 5** — Расчет валовой прибыли, затрат и налогов 
 [task_5_gross_profit.sql]
+
+**Задача 6** — Расчет ARPU/ARPPU/AOV
+[task_6_arpu_arppu_aov.sql]
